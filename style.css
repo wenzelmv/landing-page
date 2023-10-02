@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #1f2937;
+}
+
+.header,
+.hero {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+}
+
+.hero {
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.hero-description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 24px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bolder;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+img {
+  width: 450px;
+}
+
+p.secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+button.sign-up {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 20px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: bolder;
+}
+
+.information {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  height: 33vh;
+}
+
+.blue-box-outline {
+  border: 3px solid rgb(0, 139, 253);
+  width: 150px;
+  height: 150px;
+  border-radius: 12px;
+}
+
+.box-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 150px;
+  gap: 12px;
+}
+
+.information-boxes {
+  display: flex;
+  gap: 45px;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 33vh;
+}
+
+.quote-container {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+blockquote {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: lighter;
+}
+
+.quoted-by {
+  font-size: 18px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.call-to-action {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+.cta-box {
+  color: white;
+  background-color: #3882f6;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  width: 1200px;
+  padding: 33px 33px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+button.sign-up-border {
+  color: white;
+  border: 2px solid white;
+  background-color: transparent;
+  border-radius: 8px;
+  padding: 0 24px;
+  font-weight: bold;
+}
+
+.footer {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
